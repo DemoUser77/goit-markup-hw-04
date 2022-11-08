@@ -31,7 +31,7 @@
           <a class="logo" href="">Web<span class="logo-header">Studio</span></a>
           <ul class="main-item header-item">
             <li class="text-li">
-              <a class="text" href="./index.html">Студія</a>
+              <a class="text-logo" href="./index.html">Студія</a>
             </li>
             <li class="text-li">
               <a class="text-logo" href="./portfolio.html">Портфоліо</a>
@@ -74,17 +74,19 @@
                 <svg class="main-icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-antenna"></use>
                 </svg>
-                <h3 class="main-content">Увага до деталей</h3>
-                <p class="main-features">
-                  Ідейні міркування, і навіть початок повсякденної роботи з
-                  формування позиції.
-                </p>
               </div>
+              <h3 class="main-content">Увага до деталей</h3>
+              <p class="main-features">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
             </li>
             <li class="main-item">
-              <svg class="main-icon" width="70" height="70">
-                <use href="./img/icons.svg#icon-clock"></use>
-              </svg>
+              <div class="content">
+                <svg class="main-icon" width="70" height="70">
+                  <use href="./img/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="main-content">Пунктуальність</h3>
               <p class="main-features">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -92,18 +94,22 @@
               </p>
             </li>
             <li class="main-item">
-              <svg class="main-icon" width="70" height="70">
-                <use href="./img/icons.svg#icon-diagram"></use>
-              </svg>
+              <div class="content">
+                <svg class="main-icon" width="70" height="70">
+                  <use href="./img/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="main-content">Планування</h3>
               <p class="main-features">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="main-item">
-              <svg class="main-icon" width="70" height="70">
-                <use href="./img/icons.svg#icon-astronaut"></use>
-              </svg>
+              <div class="content">
+                <svg class="main-icon" width="70" height="70">
+                  <use href="./img/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="main-content">Сучасні технології</h3>
               <p class="main-features">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -148,7 +154,7 @@
                 <ul class="socials list">
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://instagram.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -174,7 +180,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://facebook.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -187,7 +193,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://linkedin.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -214,7 +220,7 @@
                 <ul class="socials list">
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://instagram.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -227,7 +233,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://twitter.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -240,7 +246,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://facebook.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -253,7 +259,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="socials-link"
                       href="https://linkedin.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -454,29 +460,31 @@
     </main>
     <!--Footer section-->
     <footer class="footer-color">
-      <div class="container">
-        <a class="footer-logo" href=""
-          >Web<span class="footer-logo-color">Studio</span></a
-        >
-        <address>
-          <ul class="main-item">
-            <li>
-              <a
-                class="address"
-                href="https://goo.gl/maps/omQ613N7sSxZQbV56"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li>
-              <a class="footer-info" href="">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="footer-info" href="">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+      <div class="container footer">
+        <div>
+          <a class="footer-logo" href=""
+            >Web<span class="footer-logo-color">Studio</span></a
+          >
+          <address>
+            <ul class="main-item">
+              <li>
+                <a
+                  class="address"
+                  href="https://goo.gl/maps/omQ613N7sSxZQbV56"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li>
+                <a class="footer-info" href="">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="footer-info" href="">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
         <div class="footer-social">
           <p class="footer-title">Приєднуйтесь</p>
           <ul class="footer-links">
